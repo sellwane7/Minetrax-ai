@@ -4,6 +4,9 @@
 .env.*.local
 *.env
 
+secrets.toml
+.streamlit/secrets.toml
+
 # Python
 __pycache__/
 *.py[cod]
