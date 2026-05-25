@@ -23,7 +23,7 @@ It covers **54 real mine operations** across **9 South African provinces** — f
 
 ## 🖥️ Live Demo
 
-> 🚀 **Try Minetrax AI live:** [https://minetrax.streamlit.app](https://minetrax.streamlit.app)
+> 🚀 **Try Minetrax AI live:** [https://minetrax-ai-4mtohnmitikrntdxfqutpq.streamlit.app/)
 >
 > *No sign-up required for now
 
