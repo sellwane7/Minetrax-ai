@@ -1,10 +1,3 @@
-<div align="center">
-
-<img src="https://img.shields.io/badge/MHSA-Act%2029%20of%201996%20Compliant-F5A623?style=for-the-badge&logo=shield&logoColor=white" />
-<img src="https://img.shields.io/badge/Powered%20By-Groq%20AI-2ED573?style=for-the-badge&logo=robot&logoColor=white" />
-<img src="https://img.shields.io/badge/Platform-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
-
 # ⛏️ MINETRAX AI
 
 ### Mining Safety Intelligence Platform — South Africa
@@ -32,7 +25,7 @@ It covers **54 real mine operations** across **9 South African provinces** — f
 
 > 🚀 **Try Minetrax AI live:** [https://minetrax.streamlit.app](https://minetrax.streamlit.app)
 >
-> *No sign-up required. Add your own Groq API key in the sidebar to unlock full AI generation.*
+> *No sign-up required for now
 
 ---
 
@@ -107,45 +100,6 @@ All documents include branded PDF output, metadata tables, and a formal signatur
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.9+
-- A [Groq API key](https://console.groq.com) (free tier available)
-
-### Installation
-
-```bash
-git clone https://github.com/yourusername/minetrax-ai.git
-cd minetrax-ai
-pip install -r requirements.txt
-```
-
-### Configuration
-
-Create a `.env` file in the project root:
-
-```env
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-Or use Streamlit Secrets (for cloud deployment) — add to `.streamlit/secrets.toml`:
-
-```toml
-GROQ_API_KEY = "your_groq_api_key_here"
-```
-
-### Run Locally
-
-```bash
-streamlit run app.py
-```
-
-The app will open at `http://localhost:8501`
-
----
-
 ## ☁️ Deploy to Streamlit Cloud
 
 1. Fork this repository
@@ -170,14 +124,6 @@ Pillow
 python-dotenv
 ```
 
-Install all at once:
-
-```bash
-pip install streamlit groq python-docx fpdf2 Pillow python-dotenv
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -185,39 +131,22 @@ minetrax-ai/
 ├── app.py                  # Main Streamlit application
 ├── requirements.txt        # Python dependencies
 ├── .env.example            # Environment variable template
-├── mines.jpg               # Optional background image
 └── README.md
 ```
-
----
-
-## 📸 Screenshots
-
-| Welcome Screen | Safety Dashboard | Hazard Intelligence |
-|---|---|---|
-| Province & mine selection | Compliance gauge + MHSA refs | ML risk score + AI report |
-
-| Compliance Engine | Report Forge | Safety Advisor |
-|---|---|---|
-| Protocol audit + K-Means | 6 MHSA document types | AI chatbot Q&A |
-
 ---
 
 ## 🔮 Roadmap
 
-**Short-Term**
 - [ ] Real-time IoT sensor integration via MQTT
 - [ ] PWA wrapper for offline underground use
 - [ ] Multi-language support (Zulu, Afrikaans, Sotho)
 - [ ] Role-based authentication (Mine Manager / Safety Officer / Supervisor)
 
-**Medium-Term**
 - [ ] Historical trend dashboards with persistent storage
 - [ ] DMR Form 10.1 auto-fill from report data
 - [ ] Geospatial mine zone risk mapping
 - [ ] WhatsApp / SMS safety alert integration
 
-**Long-Term**
 - [ ] Computer vision PPE and hazard detection from camera feeds
 - [ ] Digital twin mine simulation interface
 - [ ] Multi-mine portfolio executive dashboard
@@ -244,12 +173,6 @@ Minetrax AI is built on and references the following MHSA Act 29 of 1996 provisi
 ## ⚠️ Disclaimer
 
 Minetrax AI is a decision-support tool intended to assist qualified mining safety professionals. It does not replace the statutory obligations of Mine Managers, Safety Officers, or Principal Officers under the Mine Health and Safety Act, Act 29 of 1996. All AI-generated reports must be reviewed by a competent person before use in formal MHSA processes. AI-generated content may contain errors and should not be submitted to the DMRE without verification.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
