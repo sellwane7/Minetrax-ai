@@ -102,10 +102,9 @@ All documents include branded PDF output, metadata tables, and a formal signatur
 
 ## ☁️ Deploy to Streamlit Cloud
 
-1. Fork this repository
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo and select `app.py`
-4. Under **Advanced settings → Secrets**, add:
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Connect your GitHub repo and select `app.py`
+3. Under **Advanced settings → Secrets**, add:
    ```
    GROQ_API_KEY = "your_key_here"
    ```
