@@ -18,6 +18,7 @@ import json
 # Load .env file
 load_dotenv()
 
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 # Read the key from the environment, fall back to streamlit secrets if needed
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 if not GROQ_API_KEY:
